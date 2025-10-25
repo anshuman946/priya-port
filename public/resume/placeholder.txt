@@ -1,0 +1,9 @@
+This is a placeholder file.
+
+To add your actual resume:
+
+1. Save your resume as a PDF file
+2. Name it exactly: Priya_Das_Resume.pdf
+3. Replace this file with your actual resume PDF
+
+The download button will automatically work once you add your PDF file.
