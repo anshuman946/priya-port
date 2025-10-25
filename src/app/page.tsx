@@ -14,7 +14,7 @@ export default function Home() {
     // Initialize any global animations or effects here
     const handleScroll = () => {
       const scrolled = window.pageYOffset
-      const parallax = document.querySelector('.parallax-bg')
+      const parallax = document.querySelector('.parallax-bg') as HTMLElement
       if (parallax) {
         const speed = scrolled * 0.5
         parallax.style.transform = `translateY(${speed}px)`

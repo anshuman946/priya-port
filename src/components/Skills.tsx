@@ -96,7 +96,7 @@ export default function Skills() {
       const timer = setTimeout(() => {
         filteredSkills.forEach((skill, index) => {
           setTimeout(() => {
-            setAnimatedSkills(prev => new Set([...prev, skill.name]))
+            setAnimatedSkills(prev => new Set(Array.from(prev).concat(skill.name)))
           }, index * 100)
         })
       }, 500)
